@@ -7,7 +7,7 @@ pipeline
         {
             steps
             {
-                https://github.com/nanigogula/Jenkins.git
+                git 'https://github.com/nanigogula/Jenkins.git'
             }
         }
         stage('ContBuild')
